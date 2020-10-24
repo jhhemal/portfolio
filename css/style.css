@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    /* text-decoration: none; */
     font-family: 'Baloo Tamma 2', cursive;
 }
 
@@ -23,4 +24,65 @@ header{
 
 h1{
     font-size: 40px;
+}
+
+main{
+    background-color: #f8f9fa;
+    color: #545454;
+    height: 600px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    /* box-shadow: 1px 1px 15px #545454; */
+    margin-bottom: 20px;
+}
+
+.terminal-head{
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 2px rgba(116, 116, 116, 0.705);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.termnal-btn-container{
+    width: 100px;
+    /* background-color: green; */
+    display: flex;
+}
+
+.terminal-btn{
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+    background-color: #d87d7d;
+}
+
+.terminal-btn + .max{
+    background-color: #f0ad4e;
+}
+.terminal-btn + .min{
+    background-color: #45b29a;
+}
+
+nav{
+    margin-right: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: grey;
+}
+nav a:hover{
+    background-color: grey;
+    color: #fff;
 }
