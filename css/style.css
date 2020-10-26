@@ -101,11 +101,11 @@ nav a:hover{
     align-items: center;
 }
 
-.image-section{
+.t-container{
     margin: 0 auto;
     text-align: center;
-    color: gray;
-    font-size: 20px;
+    /* color: gray; */
+    font-size: 22px;
 }
 
 .logo{
