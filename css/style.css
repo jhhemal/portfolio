@@ -32,7 +32,7 @@ main{
     background-color: #f8f9fa;
     border: solid 1px rgba(116, 116, 116, 0.705);
     color: #545454;
-    height: 600px;
+    /* height: 600px; */
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -92,6 +92,12 @@ nav a:hover{
     color: #fff;
 }
 
+.terminal-header{
+    margin: 20px 0;
+    /* background-color: #f8f9fa; */
+    text-align: center;
+}
+
 .terminal-body{
     width: 90%;
     margin: 0 auto;
@@ -106,6 +112,14 @@ nav a:hover{
     text-align: center;
     /* color: gray; */
     font-size: 22px;
+}
+
+.t-container + .left{
+    width: 40%;
+}
+
+.t-container + .right{
+    width: 60%;
 }
 
 .logo{
