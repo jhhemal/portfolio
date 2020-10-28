@@ -103,6 +103,7 @@ nav a:hover{
     margin: 0 auto;
     height: 500px;
     display: flex;
+    /* flex-direction: row; */
     justify-content: space-between;
     align-items: center;
 }
@@ -126,4 +127,31 @@ nav a:hover{
     width: 200px;
     border: 5px solid #ffffff;
     border-radius: 200px;
+}
+
+@media (max-width:600px){
+    .terminal-body{
+        flex-direction: column;
+        height: auto;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .sub-header{
+        font-size: 24px;
+        margin-right: auto;
+        text-align: center;
+    }
+    .t-container{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .t-container + .left{
+        margin-bottom: 50px;
+        width: auto;
+        height: auto;
+    }
+    .t-container + .right{
+        width: auto;
+    }
 }
